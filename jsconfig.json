@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./types/*", "."]
+    },
+    "target": "es2021"
+  },
+  "include": ["**/*.js", "d.ts/*.d.ts"],
+  "exclude": ["node_modules"]
+}
